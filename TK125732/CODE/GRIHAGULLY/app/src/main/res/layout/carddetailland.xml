@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/cardinfo"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="25dp"
+    app:cardElevation="5dp"
+    android:layout_margin="10dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:padding="10dp"
+            android:id="@+id/image"
+            android:src="@drawable/addland"/>
+
+
+        <TextView
+            android:id="@+id/tvname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Site name"
+            android:gravity="center"
+            android:textSize="25sp"
+            android:textAllCaps="true"
+            android:textStyle="bold"
+            android:padding="5dp"
+            android:textColor="@color/black"/>
+
+
+
+
+        <TextView
+            android:id="@+id/tvcost"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="cost"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:padding="5dp"
+            android:textColor="@color/black"/>
+
+
+        <TextView
+            android:id="@+id/tvstatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="status"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:padding="5dp"
+            android:textColor="@color/black"/>
+
+
+
+        <TextView
+            android:id="@+id/tvlandmark"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="land marks"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:padding="5dp"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/tvaddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Address"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:padding="5dp"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/tvdescr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Description"
+            android:textSize="18sp"
+            android:padding="5dp"
+            android:textColor="@color/black"/>
+
+
+        <TextView
+            android:id="@+id/tvownerdetails"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Owner Deatils"
+            android:textSize="18sp"
+            android:gravity="right"
+            android:textStyle="bold"
+            android:padding="5dp"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/tvinfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:padding="5dp"
+            android:textColor="@color/black"/>
+
+
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
